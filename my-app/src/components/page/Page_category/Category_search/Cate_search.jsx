@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import "./cate_search.css";
-import product_img from "../../../img/sale_nua_thang.webp";
-import product_img2 from "../../../img/me_be.webp";
-import product_img3 from "../../../img/gufood.webp";
+// import product_img from "../../../img/sale_nua_thang.webp";
+// import product_img2 from "../../../img/me_be.webp";
+// import product_img3 from "../../../img/gufood.webp";
 
 export default class PreviousNextMethods extends Component {
     constructor(props) {
@@ -26,31 +26,32 @@ export default class PreviousNextMethods extends Component {
       };
 
   return (
-        <div className="slider">
-            <div className="grid wide">
-                <div className="row">
-                    <div className="col l-8 m-8 c-12">
-                        <div className="slider-container">
-                            <div className="slider-directional">
-                                <div className="prev_slider">
-                                    <i className="fas fa-chevron-left"></i>
-                                </div>
-                                <div className="next_slider">
-                                    <i className="fas fa-chevron-right"></i>
-                                </div>
-                            </div>
-                            <div className="slider-container-banner">
-                                <a href="" className="slider-container-link">
-                                    <img src={product_img} alt="" className="slider-img"/>
-                                    <img src={product_img2} alt="" className="slider-img"/>
-                                    <img src={product_img3} alt="" className="slider-img"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <></>
+        // <div className="slider">
+        //     <div className="grid wide">
+        //         <div className="row">
+        //             <div className="col l-8 m-8 c-12">
+        //                 <div className="slider-container">
+        //                     <div className="slider-directional">
+        //                         <div className="prev_slider">
+        //                             <i className="fas fa-chevron-left"></i>
+        //                         </div>
+        //                         <div className="next_slider">
+        //                             <i className="fas fa-chevron-right"></i>
+        //                         </div>
+        //                     </div>
+        //                     <div className="slider-container-banner">
+        //                         <a href="" className="slider-container-link">
+        //                             <img src={product_img} alt="" className="slider-img"/>
+        //                             <img src={product_img2} alt="" className="slider-img"/>
+        //                             <img src={product_img3} alt="" className="slider-img"/>
+        //                         </a>
+        //                     </div>
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </div>
+        // </div>
         // <div className='CategoryViewstyle__Right-sc-bhstkd-1 jxmsjJ'>
         //     <div className='inner'>
         //         <div className='search-summary'>

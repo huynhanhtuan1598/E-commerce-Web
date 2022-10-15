@@ -1,7 +1,6 @@
 import React from 'react';
 import { Outlet, Link, NavLink } from "react-router-dom";
 import './style.css'
-import IP13 from "../../../img/13prmax.webp";
 import img12 from '../../../asset/image/4D_Future.png';
 
 

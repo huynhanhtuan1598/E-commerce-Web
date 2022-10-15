@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "../../asset/image/Dog_Pull.jpg";
-import searchs from "../../img/search.png";
 import user from "../../asset/image/favpng_font-awesome-user-font.png";
 import cart from "../../asset/image/favpng_shopping-cart-shopping-centre-icon.png";
 

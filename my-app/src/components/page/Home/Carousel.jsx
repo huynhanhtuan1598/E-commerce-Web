@@ -1,10 +1,4 @@
 import React from "react";
-import LANA from "../../img/lata.webp";
-import Nestles from "../../img/suanan.webp";
-import Tshirts from "../../img/ao_khoac.webp";
-import Pumas from "../../img/21a108dc42951087adc434372e455028.jpg.webp";
-import Uno from "../../img/uno.webp";
-import tefat from "../../img/may_ep.webp";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
 import img1 from "../../asset/image/4D_Future2.png";
 import img2 from "../../asset/image/4DFWD2.png";

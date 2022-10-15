@@ -1,11 +1,10 @@
 import React from "react";
 import "../css/Product_list.css";
-import cat_story from "../../../img/cat_story.webp";
+// import cat_story from "../../../img/cat_story.webp";
 
-const Product_list = () => {
-  return (
-   <div className="Container-sc-itwfbd-0 hfMLFx">
-     <div className="StoreTab__Container-sc-147j2nr-0 kByqex ALL_PRODUCT">
+const Product_list = () => (
+  <div className="Container-sc-itwfbd-0 hfMLFx">
+    <div className="StoreTab__Container-sc-147j2nr-0 kByqex ALL_PRODUCT">
       <div className="ProductRow__Wrapper-sc-13ncpqb-0 gQzyWn widget-item">
         <div className="WidgetTitle__Title-sc-e2wjwt-0 julxTh">
           <h2>
@@ -58,7 +57,7 @@ const Product_list = () => {
             <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
               <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
                 <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} className="image" />
+                  {/* <img src={cat_story} className="image" /> */}
                 </div>
               </div>
               <div className="Product__Info-sc-n99tp2-4 fVvAhB">
@@ -130,13 +129,13 @@ const Product_list = () => {
                       </svg>
                     </div>
                     <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
-                      
+
                     </div>
                     <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
                 <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                  <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
                 <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
@@ -149,7 +148,7 @@ const Product_list = () => {
             <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
               <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
                 <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} className="image" />
+                  {/* <img src={cat_story} className="image" /> */}
                 </div>
               </div>
               <div className="Product__Info-sc-n99tp2-4 fVvAhB">
@@ -221,13 +220,13 @@ const Product_list = () => {
                       </svg>
                     </div>
                     <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
-                      
+
                     </div>
                     <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
                 <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                  <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
                 <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
@@ -240,7 +239,7 @@ const Product_list = () => {
             <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
               <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
                 <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} className="image" />
+                  {/* <img src={cat_story} className="image" /> */}
                 </div>
               </div>
               <div className="Product__Info-sc-n99tp2-4 fVvAhB">
@@ -312,13 +311,13 @@ const Product_list = () => {
                       </svg>
                     </div>
                     <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
-                      
+
                     </div>
                     <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
                 <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                  <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
                 <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
@@ -331,7 +330,7 @@ const Product_list = () => {
             <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
               <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
                 <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} className="image" />
+                  {/* <img src={cat_story} className="image" /> */}
                 </div>
               </div>
               <div className="Product__Info-sc-n99tp2-4 fVvAhB">
@@ -403,13 +402,13 @@ const Product_list = () => {
                       </svg>
                     </div>
                     <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
-                      
+
                     </div>
                     <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
                 <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                  <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
                 <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
@@ -422,7 +421,7 @@ const Product_list = () => {
             <div className="Product__Container-sc-n99tp2-2 cmKAZS p-container">
               <div className="Product__Thumbnail-sc-n99tp2-3 hIMjQQ p-thumbnail">
                 <div className="Picture__StyledPicture-sc-10icj7e-0 jDowEZ thumbnail-img loaded">
-                  <img src={cat_story} className="image" />
+                  {/* <img src={cat_story} className="image" /> */}
                 </div>
               </div>
               <div className="Product__Info-sc-n99tp2-4 fVvAhB">
@@ -494,25 +493,24 @@ const Product_list = () => {
                       </svg>
                     </div>
                     <div className="Product__LineCol-sc-n99tp2-19 kXXgpV">
-                      
+
                     </div>
                     <div className="Product__LabelSoldSKu-sc-n99tp2-18 bqTOUt">Đã bán 64</div>
                   </div>
                 </div>
                 <div className="Product__PriceDiscount-sc-n99tp2-10 Iqxzi">
-                <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
+                  <div className="Product__PriceDiscountValue-sc-n99tp2-11 gNGdFk"><span>250.000 ₫</span></div>
                 </div>
                 <div className="Product__UnderPrice-sc-n99tp2-14 jgDYST"></div>
               </div>
             </div>
           </a>
         </div>
-        
+
         <div className="ProductRow__Footer-sc-13ncpqb-2 ehdHkC"></div>
       </div>
     </div>
-   </div>
-  );
-};
+  </div>
+);
 
 export default Product_list;

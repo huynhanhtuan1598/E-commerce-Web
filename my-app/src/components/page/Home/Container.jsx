@@ -5,51 +5,11 @@ import img1 from "../../asset/image/4D_Future2.png";
 import img2 from "../../asset/image/4DFWD2.png";
 import img3 from "../../asset/image/Ultraboot2222.png";
 
-import IP13 from "../../img/13prmax.webp";
 
 export default function Container() {
   return (
     <div className="Container-sc-itwfbd-0 hfMLFx infinite_scroll">
       <div className="style__StyledInfiniteScrollWidget-sc-89j3qn-2 cMnFhK">
-        {/* <div className="header">
-          <h2 class="style__StyledInfiniteScrollWidgetHeaderTitle-sc-89j3qn-0 kFdEkv">
-            Gợi Ý Hôm Nay
-          </h2>
-          <div className="style__StyledInfiniteScrollWidgetHeaderTabs-sc-89j3qn-1 bSYAiy">
-            <div class="tab active">
-              <img src={ForUser} />
-              <div class="tab-text">Dành cho bạn</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-            <div className="tab false">
-              <img src={Market} />
-              <div class="tab-text">Mua 1 Được 8</div>
-            </div>
-          </div>
-        </div> */}
         <div className="style__StyledInfiniteScroll-sc-r7dr5o-0 icHRkQ">
           <div className="content">
             <div>

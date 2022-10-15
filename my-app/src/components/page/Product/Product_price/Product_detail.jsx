@@ -1,8 +1,8 @@
 import React from "react";
 import "../Product_price/style.css";
-import shop from "../../../img/shop.webp";
-import icon_shop from "../../../img/icon.png";
-import icon_add from "../../../img/icon_add.png";
+// import shop from "../../../img/shop.webp";
+import icon_shop from "../../../asset/image/icon_home.png";
+import icon_add from "../../../asset/image/add.png";
 import { useSelector, useDispatch } from "react-redux";
 import { useState } from "react";
 import imgs from '../../../asset/image/4D_Future.png';
@@ -182,7 +182,7 @@ function Product_detail() {
                       <a className="overview">
                         <img
                           className="WebpImg__StyledImg-sc-h3ozu8-0 fWjUGo logo"
-                          src={shop}
+                          // src={shop}
                         />
                         <div className="overview-right center-item">
                           <span className="seller-name">
