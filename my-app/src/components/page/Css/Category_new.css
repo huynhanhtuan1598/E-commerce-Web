@@ -1,0 +1,79 @@
+.hfMLFx {
+    width: 1270px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.gDRkTC {
+    background: white;
+    margin: 16px 0px 0px;
+    border-radius: 4px;
+}
+.gDRkTC .header {
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 16px;
+    text-transform: capitalize;
+    font-weight: initial;
+}
+.gDRkTC .body {
+    margin: 10px 0px 0px;
+}
+.leHCck {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+.leHCck .slick-list {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.slick-track{
+
+    width: 1240px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+.leHCck .slick-track {
+    display: flex;
+}  
+.leHCck .slick-slide {
+    height: auto;
+}
+.slick-slide .slick-active .slick-current{
+    outline: none;
+    width: 1240px;
+} 
+
+.gDRkTC .page {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 1fr;
+    gap: 12px 45px;
+}
+.gDRkTC .page .item {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    color: rgb(36, 36, 36);
+}
+.gDRkTC .page .category-image {
+    border-radius: 20px;
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+.fWjUGo {
+    object-fit: contain;
+}
+.h3, h3 {
+    font-size: 14px;
+}
+
+.body{
+    background-color: white;
+}

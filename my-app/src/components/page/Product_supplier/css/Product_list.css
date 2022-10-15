@@ -1,0 +1,124 @@
+.hfMLFx {
+    width: 1270px;
+    padding-left: 23px;
+    padding-right: 14px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.ceJCpX {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+}
+.gMgInl {
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: auto;
+    align-items: flex-start;
+}
+.cmKAZS {
+    display: flex;
+    width: 100%;
+    padding: 12px 12px 0px;
+    color: rgb(36, 36, 36);
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.hIMjQQ {
+    flex-shrink: 0;
+    text-align: center;
+    position: relative;
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+}
+.hIMjQQ .thumbnail-img {
+    width: 100%;
+    height: 100%;
+}
+.jDowEZ {
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding-top: 100%;
+}
+.jDowEZ.loaded .image {
+    display: inline-block;
+}
+.jDowEZ .image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    display: none;
+    vertical-align: middle;
+}
+.fVvAhB {
+    margin-bottom: 8px;
+}
+.cmKAZS {
+    display: flex;
+    width: 100%;
+    padding: 12px 12px 0px;
+    color: rgb(36, 36, 36);
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+.bKITFt {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    word-break: break-word;
+}
+.bKITFt > h3 {
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0px 0px 4px;
+    line-height: 20px;
+}
+.eNmLbs {
+    margin-top: -8px;
+    display: flex;
+}
+.kGxEjz {
+    position: relative;
+    margin: 0px 4px 0px 0px;
+    display: flex;
+}
+.kXXgpV {
+    width: 1px;
+    height: 9px;
+    margin: 9.5px 6px 3px 4px;
+    background-color: rgb(199, 199, 199);
+}
+.bqTOUt {
+    height: 16px;
+    margin: 8px 2px 0px 0px;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    color: rgb(120, 120, 120);
+}
+.Iqxzi {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.gNGdFk {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: rgb(56, 56, 61);
+}

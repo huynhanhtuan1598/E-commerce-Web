@@ -1,0 +1,292 @@
+/* Desktop */
+
+
+@media (max-width: 1224px) {
+    .navigation {
+        margin-left: -147px;
+    }
+    .navigation .grid.wide.navigation_header {
+        max-width: 998px;
+        margin: 0 auto;
+        margin-left: 373px;
+    }
+    .rower {
+        width: 1220px;
+        margin-left: -224px;
+    }
+    .row {
+        width: 1222px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .sticky-item {
+        background-color: #fff;
+        border-radius: 4px;
+        width: 1210px;
+    }
+
+    .container-sticky .grid.wide {
+        max-width: 1222px;
+        margin: 0 auto;
+        margin-left: 226px;
+    }
+
+    .product-suggestions .grid.wide {
+        max-width: 1231px;
+        margin: 0 auto;
+        margin-left: 226px;
+    }
+
+    .bXIPFu .breadcrumb {
+        display: flex;
+        align-items: center;
+        margin-left: -14px;
+    }
+
+    .menu-category .menu-hover {
+        display: block;
+        background-color: white;
+        width: 228px;
+        left: -130px;
+        top: 61px;
+        z-index: 2;
+        margin-left: 10px;
+        margin-top: -414px;
+    }
+
+    .slider .grid.wide {
+        max-width: 1230px;
+        margin: 0 auto;
+        margin-left: 241px;
+    }
+
+    .App .slider {
+        margin-top: 0%;
+        margin-left: 0px;
+        margin-right: 303px;
+        width: 982px;
+    }
+
+    .product_suggestions_category .grid.wide.product {
+        max-width: 982px;
+        margin: 0 auto;
+        margin-left: 241px;
+    }
+
+    .slider-directional .next_slider {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 235px;
+        font-size: 15px;
+        padding: 20px 10px;
+        color: var(--white-color);
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    .App .menu-service {
+        display: block;
+        background-color: white;
+        width: 228px;
+        left: -130px;
+        top: 61px;
+        z-index: 2;
+        margin-left: 10px;
+        margin-top: -5px;
+    }
+
+    .App .menu-address {
+        display: block;
+        /* position: absolute; */
+        background-color: white;
+        width: 228px;
+        left: -130px;
+        top: 61px;
+        /* display: none; */
+        z-index: 2;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+
+    .App .Detail_information {
+        width: 1270px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: -23px;
+    }
+
+    .product-suggestions .grid.wide.product_similar {
+        max-width: 1200px;
+        margin: 0 auto;
+        margin-left: 236px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .navigation .grid.wide.navigation_header {
+        max-width: 887px;
+        margin: 0 auto;
+        margin-left: 373px;
+    }
+    .rower {
+        width: 1230px;
+        margin-left: -343px;
+    }
+    .container-sticky .grid.wide {
+        max-width: 1231px;
+        margin: 0 auto;
+        margin-left: 254px;
+    }
+
+    .product-suggestions .grid.wide {
+        max-width: 1231px;
+        margin: 0 auto;
+        margin-left: 254px;
+    }
+    .App .menu-hover{
+        margin-left: 21px;
+    }
+    .slider .grid.wide{
+        margin-left: 251px;
+    }
+    .product_suggestions_category .grid.wide.product {
+        margin-left: 251px;
+    }
+    .App .menu-service {
+        margin-left: 21px;
+    }
+    .App .menu-address {
+        margin-left: 21px;
+    }
+
+    .product-suggestions .grid.wide.product_similar{
+        margin-left: 264px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .App .hfMLFx {
+        width: 1024px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .body_Category {
+        width: 1024px;
+    }
+    .product-suggestions {
+        margin-left: -254px;
+    }    
+    
+    .rower {
+        width: 1024px;
+        margin-left: -226px;
+    }
+
+    .navigation .grid.wide.navigation_header {
+        max-width: 798px;
+        margin: 0 auto;
+        margin-left: 373px;
+    }
+
+    .container .row {
+        width: 1024px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    .container-sticky .grid.wide {
+        max-width: 1024px;
+        margin: 0 auto;
+        margin-left: 224px;
+    }
+    .body_Carousel .row{
+        width: 1024px;
+    }
+
+    .body_Category .row{
+        width: 1024px;
+    }
+
+    .sticky-item {
+        background-color: #fff;
+        border-radius: 4px;
+        width: 1024px;
+    }
+    .Detail_information .table_information {
+        background-color: white;
+        width: 1024px;
+        margin-left: 9px;
+        padding: 0 16px;
+        height: 337px;
+    }
+    .App .description {
+        width: 1024px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        padding: 0 25px;
+    }
+    .App .container_bootdey {
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+    .row .suggestions_main_category {
+        display: flex;
+        width: 62%;
+        margin-left: 26px;
+    }
+    .grid.wide .row{
+        margin-top: 25px;
+    }
+    .product_suggestions_category .grid.wide.product {
+        max-width: 784px;
+        margin: 0 auto;
+        margin-left: 241px;
+    }
+    .product_suggestions_category .grid.wide {
+        background-color: white;
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+
+    .slider .grid.wide{
+        background-color: white;
+        max-width: 775px;
+        margin: 0 243px;
+    }
+    .slider-container .slider-container-banner {
+        display: flex;
+        width: calc(9% * 7);
+        transition: all 0.5s;
+    }
+
+    .slider-directional .next_slider {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 429px;
+        font-size: 15px;
+        padding: 20px 10px;
+        color: var(--white-color);
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        cursor: pointer;
+        opacity: 0.5;
+    }
+      
+}
+
+/* Mobi */
+
+/* tableMobi */
