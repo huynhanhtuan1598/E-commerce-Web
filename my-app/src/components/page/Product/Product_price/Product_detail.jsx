@@ -5,6 +5,9 @@ import icon_shop from "../../../img/icon.png";
 import icon_add from "../../../img/icon_add.png";
 import { useSelector, useDispatch } from "react-redux";
 import { useState } from "react";
+import imgs from '../../../asset/image/4D_Future.png';
+import wwd from '../../../asset/image/4D_Future2.png';
+import img_smal from '../../../asset/image/4DFWD2.png';
 
 function Product_detail() {
   const [counter, setCounter] = useState(1);
@@ -45,13 +48,13 @@ function Product_detail() {
             <div className="preview col-md-6">
               <div className="preview-pic tab-content">
                 <div className="tab-pane active" id="pic-1">
-                  <img src="http://placekitten.com/400/252" />
+                  <img src={imgs} />
                 </div>
                 <div className="tab-pane" id="pic-2">
-                  <img src="http://placekitten.com/400/252" />
+                <img src={wwd} />
                 </div>
                 <div className="tab-pane" id="pic-3">
-                  <img src="http://placekitten.com/400/252" />
+                <img src={img_smal} />
                 </div>
                 <div className="tab-pane" id="pic-4">
                   <img src="http://placekitten.com/400/252" />
@@ -63,27 +66,27 @@ function Product_detail() {
               <ul className="preview-thumbnail nav nav-tabs">
                 <li className="active">
                   <a data-target="#pic-1" data-toggle="tab">
-                    <img src="http://placekitten.com/200/126" />
+                  <img src={img_smal} />
                   </a>
                 </li>
                 <li>
                   <a data-target="#pic-2" data-toggle="tab">
-                    <img src="http://placekitten.com/200/126" />
+                  <img src={img_smal} />
                   </a>
                 </li>
                 <li>
                   <a data-target="#pic-3" data-toggle="tab">
-                    <img src="http://placekitten.com/200/126" />
+                  <img src={img_smal} />
                   </a>
                 </li>
                 <li>
                   <a data-target="#pic-4" data-toggle="tab">
-                    <img src="http://placekitten.com/200/126" />
+                  <img src={img_smal} />
                   </a>
                 </li>
                 <li>
                   <a data-target="#pic-5" data-toggle="tab">
-                    <img src="http://placekitten.com/200/126" />
+                  <img src={img_smal} />
                   </a>
                 </li>
               </ul>
@@ -206,7 +209,7 @@ function Product_detail() {
                     </div>
                   </div>
                   <div className="seller-action">
-                    <a className="action" href="/Shop_detail">
+                    <a className="action" href="/">
                       <img src={icon_shop} />
                       <span>Xem Shop </span>
                     </a>

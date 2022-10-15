@@ -1,9 +1,12 @@
 import React from "react";
 import logo from "../../asset/image/Dog_Pull.jpg";
 import searchs from "../../img/search.png";
-import user from "../../img/user.png";
-import carts from "../../img/cart.png";
+import user from "../../asset/image/favpng_font-awesome-user-font.png";
+import cart from "../../asset/image/favpng_shopping-cart-shopping-centre-icon.png";
+
 import { useSelector } from 'react-redux';
+
+
 export default function Head() {
   const carts = useSelector(state => state.cart.carts)
   return (
@@ -53,7 +56,7 @@ export default function Head() {
             <div className="Userstyle__Item-sc-6e6am-1 cHRIKv">
               <img
                 className="profile-icon"
-                src="https://salt.tikicdn.com/ts/upload/67/de/1e/90e54b0a7a59948dd910ba50954c702e.png"
+                src={user}
               />
               <span className="Userstyle__ItemText-sc-6e6am-3 kYZPng">
                 <span className="Userstyle__NoWrap-sc-6e6am-12 gJAiTt">
@@ -78,7 +81,7 @@ export default function Head() {
                   <div className="cart-wrapper">
                     <img
                       className="cart-icon"
-                      src="https://salt.tikicdn.com/ts/upload/40/44/6c/b80ad73e5e84aeb71c08e5d8d438eaa1.png"
+                      src={cart}
                     />
                     <span className="Userstyle__ItemCartQty-sc-6e6am-5 ohfHv">
                       {carts?.length}

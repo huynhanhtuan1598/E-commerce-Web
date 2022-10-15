@@ -24,9 +24,9 @@ p {
 /* header new */
 .ebTvCC {
   position: relative;
-  background: rgb(26, 148, 255);
+  background: white;
   z-index: 999;
-  margin-top: -20px;
+  margin-top: 4px;
 }
 
 .ebTvCC * {
@@ -64,6 +64,9 @@ p {
   flex-basis: 190px;
   flex-shrink: 0;
   margin-right: 16px;
+}
+.edlkEo .logo-menu img{
+  width: 60%;
 }
 
 .cWrfyT {
@@ -190,7 +193,7 @@ textarea {
   -webkit-box-align: center;
   align-items: center;
   display: flex;
-  color: rgb(255, 255, 255);
+  color: black;
   font-size: 12px;
   position: relative;
   letter-spacing: 0.7px;
@@ -209,7 +212,7 @@ textarea {
 }
 
 .kYZPng {
-  color: rgb(255, 255, 255);
+  color: black;
   font-weight: 400;
   white-space: nowrap;
   display: flex;
@@ -290,6 +293,9 @@ a {
   height: 32px;
 }
 
+.cart-text{
+  color: black;
+}
 .form-control {
   border-radius: 0px;
 }

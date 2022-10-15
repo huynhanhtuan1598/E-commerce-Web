@@ -2,6 +2,8 @@ import React from 'react';
 import { Outlet, Link, NavLink } from "react-router-dom";
 import './style.css'
 import IP13 from "../../../img/13prmax.webp";
+import img12 from '../../../asset/image/4D_Future.png';
+
 
 const Similar_product = () => {
   return (
@@ -22,7 +24,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -63,7 +65,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -104,7 +106,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -145,7 +147,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -186,7 +188,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -227,7 +229,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -268,7 +270,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>
@@ -310,7 +312,7 @@ const Similar_product = () => {
                     <img src="" alt="" />
                     <div className="style__ThumbnailWrapper-sc-1dymjr4-6 hkYMRb">
                       <picture className="webpimg-container">
-                        <img src={IP13} alt="" />
+                        <img src={img12} alt="" />
                       </picture>
                     </div>
                   </div>

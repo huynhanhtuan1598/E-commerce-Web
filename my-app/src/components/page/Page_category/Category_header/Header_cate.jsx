@@ -14,7 +14,7 @@ const Header_cate = () => {
             data-view-content='{"click_data":{"trace_id":"o3qZpti5XcNi16gU"}}'
             href="/"
           >
-            <span>Trang chủ</span>
+            <span>Home</span>
           </a>
           <span className="icon icon-next">
             <svg
@@ -39,7 +39,7 @@ const Header_cate = () => {
             data-view-index="1"
             data-view-content='{"click_data":{"trace_id":"o3qZpti5XcNi16gU"}}'
           >
-            <span title="Thời trang nam">Thời trang nam</span>
+            <span title="Thời trang nam">Product</span>
           </a>
         </div>
       </div>

@@ -3,9 +3,10 @@ import "./Category.css";
 import "../../Css/Responsive.css";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import Now from "../../../img/now.png";
-import Astra from "../../../img/astra++.png";
-import Freeship from "../../../img/freeship.png";
 import IP13 from "../../../img/13prmax.webp";
+import img1 from "../../../asset/image/4D_Future.png";
+import img2 from "../../../asset/image/4DFWD.png";
+import img3 from "../../../asset/image/Ultraboot22.png";
 
 const Category_page = () => {
   return (
@@ -266,7 +267,7 @@ const Category_page = () => {
                             <div class="badge-top"></div>
                             <div className="image-wrapper">
                               <picture className="webpimg-container">
-                                <img src={IP13} />
+                                <img src={img1} />
                               </picture>
                             </div>
                           </div>
@@ -297,7 +298,7 @@ const Category_page = () => {
                             <div class="badge-top"></div>
                             <div className="image-wrapper">
                               <picture className="webpimg-container">
-                                <img src={IP13} />
+                                <img src={img2} />
                               </picture>
                             </div>
                           </div>
@@ -328,7 +329,7 @@ const Category_page = () => {
                             <div class="badge-top"></div>
                             <div className="image-wrapper">
                               <picture className="webpimg-container">
-                                <img src={IP13} />
+                                <img src={img3} />
                               </picture>
                             </div>
                           </div>
@@ -359,7 +360,7 @@ const Category_page = () => {
                             <div class="badge-top"></div>
                             <div className="image-wrapper">
                               <picture className="webpimg-container">
-                                <img src={IP13} />
+                                <img src={img2} />
                               </picture>
                             </div>
                           </div>

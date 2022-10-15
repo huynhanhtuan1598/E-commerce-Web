@@ -1,80 +1,143 @@
-import React from 'react';
-import Cash from '../../img/Screenshot 2021-11-08 165951 thanh toán.png';
-import Ch_play from '../../img/Screenshot 2021-11-08 171932 dowload.png';
-
+import React from "react";
+import Cash from "../../img/Screenshot 2021-11-08 165951 thanh toán.png";
+import Ch_play from "../../img/Screenshot 2021-11-08 171932 dowload.png";
+import {
+  MDBFooter,
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBIcon,
+} from "mdb-react-ui-kit";
 
 export default function Footer() {
   return (
-    <footer className="footer">
-    <div className="container">
-        <div className="row">
-            <div className="footer-col">
-                <h4><b>Hỗ trợ khách hàng</b></h4>
-                <ul>
-                    <li><a href="#">Hotline: 1900-6035<br/>(1000 đ/phút, 8-21h kể cả T7, CN)</a></li>
-                    <li><a href="#">Các câu hỏi thường gặp</a></li>
-                    <li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
-                    <li><a href="#">Hướng dẫn đặt hàng</a></li>
-                 <li><a href="#">Phương thức vận chuyển</a></li>
-                    <li><a href="#">Chính sách đổi trả</a></li>
-                    <li><a href="#">Hướng dẫn trả góp</a></li>
-                    <li><a href="#">Chính sách hàng nhập khẩu</a></li>
-                    <li><a href="#">Hỗ trợ khách hàng: hotro@tiki.vn</a></li>
-                 <li><a href="#">Báo lỗi bảo mật: security@tiki.vn</a></li>
-                </ul>
-            </div>
-            <div className="footer-col">
-                <h4><b>Về Tiki</b></h4>
-                <ul>
-                    <li><a href="#">Giới thiệu Tiki</a></li>
-                    <li><a href="#">Tuyển dụng</a></li>
-                    <li><a href="#">Chính sách bảo mật thanh toán</a></li>
-                    <li><a href="#">Chính sach bảo mật thông tin cá nhân</a></li>
-                    <li><a href="#">Chính sách giải quyết khiếu nại</a></li>
-                 <li><a href="#">Điều khoản sử dụng</a></li>
-                 <li><a href="#">Giới thiệu Tiki Xu</a></li>
-                 <li><a href="#">SEP-Mua sắm có lời</a></li>
-                 <li><a href="#">Tiếp thị liên kết cùng Tiki</a></li>
-                 <li><a href="#">Bán hàng doanh nghiệp</a></li>
-                 <li><a href="#">Điều kiện vận chuyển</a></li>
-                </ul>
-            </div>
-            <div className="footer-col">
-                <h4><b>Hợp tác và liên kết</b></h4>
-                <ul>
-                    <li><a href="#">Quy chế hoạt động Sàn GDTMDT</a></li>
-                    <li><a href="#">Bán hàng cùng Tiki</a></li>
-                </ul>
-                <h4><b>Chứng nhận bởi</b></h4>
-                <a href="#"><i className="fab fa-facebook-f"></i></a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
+    //
+    <div className="Footer">
+      <MDBFooter
+        bgColor="light"
+        className="text-center text-lg-start text-muted"
+      >
+        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <div className="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
 
-            </div>
-            <div className="footer-col">
-                <h4><b>Phương thức thanh toán</b></h4>
-                <div className="social-links">
-                <img className="w-100 h-100" src={Cash} alt="Lataa" />
-                    {/* <a href="#">
-                    <img className="w-100 h-100" src={Cash} alt="Lataa" />
-                    </a>
-                    <a href="#"><i className="fab fa-twitter"></i></a>
-                    <a href="#"><i className="fab fa-instagram"></i></a>
-                    <a href="#"><i className="fab fa-linkedin-in"></i></a> */}
-                </div>
-            </div>
-            <div className="footer-col">
-             <h4><b>kết nối với chúng tôi</b></h4>
-             <div className="social-links">
-             <img className="w-100 h-100" src={Ch_play} alt="Lataa" />
-                 {/* <a href="#">  <img className="w-100 h-100" src={Ch_play} alt="Lataa" /></a>
-                 <a href="#"><i className="fab fa-twitter"></i></a>
-                 <a href="#"><i className="fab fa-instagram"></i></a>
-                 <a href="#"><i className="fab fa-linkedin-in"></i></a> */}
-             </div>
-         </div>
+          <div>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="facebook-f" />
+            </a>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="twitter" />
+            </a>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="google" />
+            </a>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="instagram" />
+            </a>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="linkedin" />
+            </a>
+            <a href="" className="me-4 text-reset">
+              <MDBIcon fab icon="github" />
+            </a>
+          </div>
+        </section>
+
+        <section className="">
+          <MDBContainer className="text-center text-md-start mt-5">
+            <MDBRow className="mt-3">
+              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">
+                  <MDBIcon icon="gem" className="me-3" />
+                  Company name
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer
+                  content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                  elit.
+                </p>
+              </MDBCol>
+
+              <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Angular
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    React
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Vue
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Laravel
+                  </a>
+                </p>
+              </MDBCol>
+
+              <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Pricing
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Settings
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Orders
+                  </a>
+                </p>
+                <p>
+                  <a href="#!" className="text-reset">
+                    Help
+                  </a>
+                </p>
+              </MDBCol>
+
+              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+                <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <MDBIcon icon="home" className="me-2" />
+                  New York, NY 10012, US
+                </p>
+                <p>
+                  <MDBIcon icon="envelope" className="me-3" />
+                  info@example.com
+                </p>
+                <p>
+                  <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                </p>
+                <p>
+                  <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                </p>
+              </MDBCol>
+            </MDBRow>
+          </MDBContainer>
+        </section>
+
+        <div
+          className="text-center p-4"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+        >
+          © 2021 Copyright:
+          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
+            MDBootstrap.com
+          </a>
         </div>
+      </MDBFooter>
     </div>
-</footer>
-  )
+  );
 }
-

@@ -6,6 +6,9 @@ import Pumas from "../../img/21a108dc42951087adc434372e455028.jpg.webp";
 import Uno from "../../img/uno.webp";
 import tefat from "../../img/may_ep.webp";
 import { MDBCarousel, MDBCarouselItem } from "mdb-react-ui-kit";
+import img1 from "../../asset/image/4D_Future2.png";
+import img2 from "../../asset/image/4DFWD2.png";
+import img3 from "../../asset/image/Ultraboot2222.png";
 
 export default function Carousel() {
   return (
@@ -99,7 +102,7 @@ export default function Carousel() {
         <MDBCarouselItem
           className="w-100 d-block"
           itemId={1}
-          src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
+          src={img1}
           alt="..."
         >
           <h5>First slide label</h5>
@@ -109,7 +112,7 @@ export default function Carousel() {
         <MDBCarouselItem
           className="w-100 d-block"
           itemId={2}
-          src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
+          src={img2}
           alt="..."
         >
           <h5>Second slide label</h5>
@@ -119,7 +122,7 @@ export default function Carousel() {
         <MDBCarouselItem
           className="w-100 d-block"
           itemId={3}
-          src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
+          src={img3}
           alt="..."
         >
           <h5>Third slide label</h5>
