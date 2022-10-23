@@ -1,13 +1,15 @@
 import React from "react";
+
+import { Outlet, Link, NavLink } from "react-router-dom";
+
 import logo from "../../asset/image/Dog_Pull.jpg";
 import user from "../../asset/image/favpng_font-awesome-user-font.png";
 import cart from "../../asset/image/favpng_shopping-cart-shopping-centre-icon.png";
 
-import { useSelector } from 'react-redux';
-
+import { useSelector } from "react-redux";
 
 export default function Head() {
-  const carts = useSelector(state => state.cart.carts)
+  const carts = useSelector((state) => state.cart.carts);
   return (
     <header className="style__Header-sc-q53692-0 ebTvCC">
       <div className="Container-sc-itwfbd-0 hfMLFx">
@@ -52,11 +54,9 @@ export default function Head() {
             </div>
           </div>
           <div className="Userstyle__Root-sc-6e6am-0 lhUPfd">
+            <NavLink strict to="Signup">
             <div className="Userstyle__Item-sc-6e6am-1 cHRIKv">
-              <img
-                className="profile-icon"
-                src={user}
-              />
+              <img className="profile-icon" src={user} />
               <span className="Userstyle__ItemText-sc-6e6am-3 kYZPng">
                 <span className="Userstyle__NoWrap-sc-6e6am-12 gJAiTt">
                   Đăng Nhập / Đăng Ký
@@ -70,30 +70,46 @@ export default function Head() {
                 </span>
               </span>
             </div>
+            </NavLink>
+            {/* <div className="Userstyle__Item-sc-6e6am-1 cHRIKv">
+              <img className="profile-icon" src={user} />
+              <span className="Userstyle__ItemText-sc-6e6am-3 kYZPng">
+                <span className="Userstyle__NoWrap-sc-6e6am-12 gJAiTt">
+                  Đăng Nhập / Đăng Ký
+                </span>
+                <span className="account-label">
+                  <span>Tài khoản</span>
+                  <img
+                    className="arrowIcon"
+                    src="https://salt.tikicdn.com/ts/upload/d7/d4/a8/34939af2da1ceeeae9f95b7485784233.png"
+                  />
+                </span>
+              </span>
+            </div> */}
             <div className="Userstyle__CartItem-sc-6e6am-14 hfiWvr">
               <a
                 href="#"
                 rel="nofollow"
                 data-view-id="header_user_shortcut_cart"
               >
-                <div className="Userstyle__Item-sc-6e6am-1 Userstyle__CartItemInner-sc-6e6am-2 cHRIKv cucUum">
+               <NavLink strict to="Payment">
+               <div className="Userstyle__Item-sc-6e6am-1 Userstyle__CartItemInner-sc-6e6am-2 cHRIKv cucUum">
                   <div className="cart-wrapper">
-                    <img
-                      className="cart-icon"
-                      src={cart}
-                    />
+                    <img className="cart-icon" src={cart} />
                     <span className="Userstyle__ItemCartQty-sc-6e6am-5 ohfHv">
                       {carts?.length}
                     </span>
                   </div>
                   <span className="cart-text">Giỏ Hàng</span>
                 </div>
+                </NavLink> 
+               
               </a>
             </div>
           </div>
         </div>
       </div>
-        {/* <div className="Bottom__Root-sc-azeq0g-0 fnCMyp">
+      {/* <div className="Bottom__Root-sc-azeq0g-0 fnCMyp">
           <div className="Container-sc-itwfbd-0 hfMLFx">
             <div className="style__StyledHeaderKeyWords-sc-1tmiyrh-0 hgsBUf">
               <a data-view-id="header_quicklinks_item" data-view-index="0">

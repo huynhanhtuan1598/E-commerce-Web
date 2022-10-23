@@ -3,7 +3,8 @@ import './App.css';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Headers from './components/page/Header';
 import {publicRoutes} from './Router/index';
-import 'mdb-react-ui-kit/dist/css/mdb.min.css'
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 
 
