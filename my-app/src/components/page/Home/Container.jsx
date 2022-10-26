@@ -2,7 +2,7 @@ import React from "react";
 import "../../page/Css/style_container.css";
 import { Outlet, Link, NavLink } from "react-router-dom";
 import img1 from "../../asset/image/4D_Future2.png";
-import img2 from "../../asset/image/4DFWD2.png";
+import img2 from "../../asset/image/dFWD2.png";
 import img3 from "../../asset/image/Ultraboot2222.png";
 
 

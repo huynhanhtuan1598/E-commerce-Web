@@ -7,7 +7,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { useState } from "react";
 import imgs from '../../../asset/image/4D_Future.png';
 import wwd from '../../../asset/image/4D_Future2.png';
-import img_smal from '../../../asset/image/4DFWD2.png';
+import img_smal from '../../../asset/image/dFWD2.png';
 
 function Product_detail() {
   const [counter, setCounter] = useState(1);
